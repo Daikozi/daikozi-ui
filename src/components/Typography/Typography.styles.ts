@@ -1,5 +1,5 @@
-import { css } from "@emotion/react";
+import { css, jsx } from "@emotion/react";
 
 export const typography = css({
-  color: "red",
+  color: "green",
 });

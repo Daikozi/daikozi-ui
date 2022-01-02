@@ -16,6 +16,8 @@ type variant =
   | "subtitle1"
   | "subtitle2";
 
+type component = "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "div" | "span";
+
 type TypographyProps = {
   /**
    * Set the text-align on the component.
@@ -25,7 +27,7 @@ type TypographyProps = {
   /**
    * The component used for the root node. Either a string to use a HTML element or a component.
    */
-  component?: HTMLElement;
+  component?: component;
   /**
    * If `true`, the text will have a bottom margin.
    * @default false
