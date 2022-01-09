@@ -1,6 +1,6 @@
-type align = "center" | "inherit" | "justify" | "left" | "right";
+export type align = "center" | "inherit" | "justify" | "left" | "right";
 
-type variant =
+export type variant =
   | "body1"
   | "body2"
   | "button"
@@ -16,7 +16,15 @@ type variant =
   | "subtitle1"
   | "subtitle2";
 
-type component = "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "div" | "span";
+export type component =
+  | "h1"
+  | "h2"
+  | "h3"
+  | "h4"
+  | "h5"
+  | "h6"
+  | "div"
+  | "span";
 
 type TypographyProps = {
   /**
